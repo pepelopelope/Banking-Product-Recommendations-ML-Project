@@ -21,7 +21,7 @@ def apk(actual, predicted, k):
 def mapk(actual, predicted, k):    
   return np.mean([apk(a,p,k) for a,p in zip(actual, predicted)])
 
-
+'''
 # Para estos ejemplos, por simplificar, asumiremos que existen los productos: 1, 2, 3, 4, 5 y 6
 
 
@@ -120,3 +120,4 @@ for j in [1,2,3,4,5,6,7,8,9,10]:
 
 
 
+'''
